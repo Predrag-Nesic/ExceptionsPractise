@@ -21,6 +21,8 @@ public class Main {
             }
 
             niz[b + 1] = 9;
+        } catch (Izuzetak2 i2) {
+            System.err.println(i2);
         } catch (Izuzetak i) {
             System.err.println(i);
         } catch (Exception ex) {
